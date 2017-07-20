@@ -74,6 +74,15 @@
                 android:background="@color/material_grey_50"
                 android:elevation="8dp" />
 
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:itemBackground="@drawable/navigation_button"
+                app:itemIconTint="@color/material_red"
+                app:itemTextColor="@color/alertColor"
+                app:menu="@menu/bottom_navigation_main" />
         </LinearLayout>
 
         <LinearLayout
@@ -100,7 +109,6 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="?android:attr/windowBackground" />
-
         </LinearLayout>
 
         <FrameLayout

@@ -40,11 +40,11 @@
         <dev.dworks.apps.anexplorer.ui.RecyclerViewPlus
             android:id="@+id/shortcuts_recycler"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="200dp"
             android:clipToPadding="false"
             android:padding="10dp"
             app:columnWidth="100dp"
-            app:type="gallery" />
+            app:type="grid" />
 
         <LinearLayout
             android:id="@+id/recents_container"

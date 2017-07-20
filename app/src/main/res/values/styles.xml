@@ -88,6 +88,7 @@
 
         <item name="actionModeStyle">@style/Custom.Widget.ActionMode</item>
         <item name="actionModeCloseButtonStyle">@style/Custom.Widget.ActionButton.CloseMode</item>
+        <item name="colorControlHighlight">@color/red</item>
     </style>
 
     <style name="StandaloneTheme" parent="@style/DocumentsTheme">

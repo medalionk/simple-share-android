@@ -104,4 +104,9 @@
     <!-- Title of dialog when prompting user to select an app to share documents with [CHAR LIMIT=32] -->
     <string name="share_via">Share via</string>
 
+    <!-- Bottom navigation menu items [CHAR LIMIT=32] -->
+    <string name="bottom_navigation_share">Share</string>
+    <string name="bottom_navigation_bookmark">Bookmark</string>
+    <string name="bottom_navigation_settings">Settings</string>
+
 </resources>

@@ -42,6 +42,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewCompat;
@@ -311,6 +312,28 @@ public class DocumentsActivity extends BaseActivity {
         if(!PermissionUtil.hasStoragePermission(this)) {
             requestStoragePermissions();
         }
+
+        BottomNavigationView bottomNavigationView = (BottomNavigationView)
+                findViewById(R.id.bottom_navigation);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(
+                new BottomNavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem item) {
+                        switch (item.getItemId()) {
+                            case R.id.action_share:
+
+                                break;
+                            case R.id.action_bookmark:
+
+                                break;
+                            case R.id.action_settings:
+
+                                break;
+                        }
+                        return true;
+                    }
+                });
     }
 
     @Override
