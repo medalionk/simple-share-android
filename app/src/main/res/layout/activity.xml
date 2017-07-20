@@ -80,8 +80,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 app:itemBackground="@drawable/navigation_button"
-                app:itemIconTint="@color/material_red"
-                app:itemTextColor="@color/alertColor"
+                app:itemIconTint="@drawable/navigation_item"
+                app:itemTextColor="@drawable/navigation_item"
                 app:menu="@menu/bottom_navigation_main" />
         </LinearLayout>
 
