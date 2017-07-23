@@ -488,7 +488,14 @@ public class RootsCache {
         }
         list.add(getAppRoot());
         for (RootInfo root : mRoots.get(MediaDocumentsProvider.AUTHORITY)) {
-            if (RootInfo.isLibraryMedia(root)) {
+            if (RootInfo.isLibraryMedia(root) || RootInfo.isLibraryNonMedia(root)
+                    || RootInfo.isFolder(root)) {
+                list.add(root);
+            }
+        }
+
+        for (RootInfo root : mRoots.values()) {
+            if (RootInfo.isLibraryNonMedia(root) || RootInfo.isFolder(root)) {
                 list.add(root);
             }
         }
