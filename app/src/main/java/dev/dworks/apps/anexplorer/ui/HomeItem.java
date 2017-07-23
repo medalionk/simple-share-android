@@ -57,8 +57,8 @@ public class HomeItem extends FrameLayout {
         summary = (TextView) findViewById(android.R.id.summary);
         progress = (NumberProgressBar) findViewById(android.R.id.progress);
 
-        action_layout = findViewById(R.id.action_layout);
-        action = (ImageButton) findViewById(R.id.action);
+        //action_layout = findViewById(R.id.action_layout);
+        //action = (ImageButton) findViewById(R.id.action);
     }
 
     public void setInfo(RootInfo root) {
@@ -100,9 +100,9 @@ public class HomeItem extends FrameLayout {
 
     public void setAction(int drawableId, OnClickListener listener){
         mActionDrawable = drawableId;
-        action_layout.setVisibility(View.VISIBLE);
-        action.setImageDrawable(IconUtils.applyTint(mContext, mActionDrawable, accentColor));
-        action.setOnClickListener(listener);
+        //action_layout.setVisibility(View.INVISIBLE);
+        //action.setImageDrawable(IconUtils.applyTint(mContext, mActionDrawable, accentColor));
+        //action.setOnClickListener(listener);
     }
 
     public void setCardListener(OnClickListener listener){
@@ -113,6 +113,6 @@ public class HomeItem extends FrameLayout {
         color = SettingsActivity.getPrimaryColor();
         accentColor = SettingsActivity.getAccentColor();
         progress.setColor(color);
-        action.setImageDrawable(IconUtils.applyTint(mContext, mActionDrawable, accentColor));
+        //action.setImageDrawable(IconUtils.applyTint(mContext, mActionDrawable, accentColor));
     }
 }

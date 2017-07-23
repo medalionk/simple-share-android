@@ -81,20 +81,20 @@
 
         </LinearLayout>
 
-        <FrameLayout
-            android:id="@+id/action_layout"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:visibility="gone">
+        <!--<FrameLayout-->
+            <!--android:id="@+id/action_layout"-->
+            <!--android:layout_width="64dp"-->
+            <!--android:layout_height="64dp"-->
+            <!--android:visibility="gone">-->
 
-            <ImageButton
-                android:id="@+id/action"
-                style="@style/ButtonAppTheme"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="action" />
+            <!--<ImageButton-->
+                <!--android:id="@+id/action"-->
+                <!--style="@style/ButtonAppTheme"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:contentDescription="action" />-->
 
-        </FrameLayout>
+        <!--</FrameLayout>-->
 
     </LinearLayout>
 </android.support.v7.widget.CardView>

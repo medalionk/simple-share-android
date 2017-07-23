@@ -175,8 +175,8 @@ public class NumberProgressBar extends View {
 
         mContext = context;
 
-        default_reached_bar_height = dp2px(1.5f);
-        default_unreached_bar_height = dp2px(1.0f);
+        default_reached_bar_height = dp2px(10.5f);
+        default_unreached_bar_height = dp2px(10.0f);
         default_text_size = sp2px(10);
         default_progress_text_offset = dp2px(3.0f);
 
