@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        versionName "3.6"
+        versionName "0.0.1"
         versionCode = 58
         minSdkVersion 17
         targetSdkVersion 25
@@ -61,6 +61,9 @@ android {
             dimension "release"
         }
         other {
+            dimension "release"
+        }
+        other22 {
             dimension "release"
         }
     }

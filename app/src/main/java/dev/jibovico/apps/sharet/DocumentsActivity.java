@@ -887,7 +887,7 @@ public class DocumentsActivity extends BaseActivity {
         // TODO: close any search in-progress when hiding
         search.setVisible(searchVisible);
 
-        settings.setVisible(mState.action != ACTION_MANAGE);
+        //settings.setVisible(mState.action != ACTION_MANAGE);
     }
 
     @Override

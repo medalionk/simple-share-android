@@ -76,7 +76,7 @@
     <string name="download_running_percent">In progress, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
     <string name="name">Sharet</string>
     <string name="app_name">Sharet</string>
-    <string name="app_ver">0.0.1</string>
+    <string name="app_ver">Sharet</string>
     <string name="app_company">Developed By Jibovico</string>
     <string name="app_url">http://codefanatic.blog/</string>
     <string name="app_about_info">Sharing made easy.</string>
