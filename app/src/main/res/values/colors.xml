@@ -6,7 +6,7 @@
     <color name="chip">#ddd</color>
     <color name="item_root_pressed">#33cccccc</color>
     <color name="item_root_focused">#66cccccc</color>
-    <color name="accentColor">#03a9f4</color>
+    <color name="accentColor">#4CAF50</color>
     <color name="statusBarColor">#28000000</color>
     <color name="defaultColor">#0288D1</color>
     <color name="alertColor">#323232</color>
