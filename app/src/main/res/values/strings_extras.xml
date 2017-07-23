@@ -74,16 +74,16 @@
 
     <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
     <string name="download_running_percent">In progress, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
-    <string name="name">AnExplorer</string>
-    <string name="app_name">AnExplorer</string>
-    <string name="app_ver">Another Explorer</string>
-    <string name="app_company">Developed By DWorkS</string>
-    <string name="app_url">http://www.dworks.in</string>
-    <string name="app_about_info">To make a small difference.</string>
-    <string name="app_contrib">Contributions by Hari Krishna Dulipudi</string>
-    <string name="app_about">This file explorer helps you  organise your files, save app, monitor process and many more</string>
-    <string name="twitter"><a href="https://twitter.com/1HaKr">  Twitter</a></string>
-    <string name="gplus"><a href="https://plus.google.com/109240246596102887385">  Google+</a></string>
+    <string name="name">Sharet</string>
+    <string name="app_name">Sharet</string>
+    <string name="app_ver">0.0.1</string>
+    <string name="app_company">Developed By Jibovico</string>
+    <string name="app_url">http://codefanatic.blog/</string>
+    <string name="app_about_info">Sharing made easy.</string>
+    <string name="app_contrib">Bilal Abdullah</string>
+    <string name="app_about">Easily and securely share files</string>
+    <string name="twitter"><a href="https://twitter.com/abdullahbilal88">  Twitter</a></string>
+    <string name="gplus"><a href="https://plus.google.com/u/0/+BilalAbdullah88">  Google+</a></string>
     <string name="pref_folder_size">Display folder size</string>
     <string name="pref_thumbnail">Display file thumbnails</string>
     <string name="pref_hidden">Show hidden files</string>

@@ -2,9 +2,8 @@ package android.support.v4.provider;
 
 import android.content.Context;
 import android.net.Uri;
-import android.os.Build;
 
-import dev.dworks.apps.anexplorer.misc.Utils;
+import dev.jibovico.apps.sharet.misc.Utils;
 
 /**
  * Created by HaKr on 25/01/17.

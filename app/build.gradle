@@ -43,15 +43,15 @@ android {
     flavorDimensions "release", "default"
     productFlavors {
         free {
-            applicationId "dev.dworks.apps.anexplorer"
+            applicationId "dev.jibovico.apps.sharet"
             dimension "default"
         }
         pro {
-            applicationId "dev.dworks.apps.anexplorer.pro"
+            applicationId "dev.jibovico.apps.sharet.pro"
             dimension "default"
         }
         underground {
-            applicationId "dev.dworks.apps.anexplorer.underground"
+            applicationId "dev.jibovico.apps.sharet.underground"
             dimension "default"
         }
         google {

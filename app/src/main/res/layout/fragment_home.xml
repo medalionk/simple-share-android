@@ -33,7 +33,7 @@
                 android:textAlignment="viewStart"
                 android:textColor="?android:attr/textColorPrimary" />
 
-            <dev.dworks.apps.anexplorer.ui.RecyclerViewPlus
+            <dev.jibovico.apps.sharet.ui.RecyclerViewPlus
                 android:id="@+id/shortcuts_recycler"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
@@ -61,24 +61,24 @@
                 android:textAlignment="viewStart"
                 android:textColor="?android:attr/textColorPrimary" />
 
-            <dev.dworks.apps.anexplorer.ui.HomeItem
+            <dev.jibovico.apps.sharet.ui.HomeItem
                 android:id="@+id/storage_stats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <dev.dworks.apps.anexplorer.ui.HomeItem
+            <dev.jibovico.apps.sharet.ui.HomeItem
                 android:id="@+id/seconday_storage_stats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone"/>
 
-            <dev.dworks.apps.anexplorer.ui.HomeItem
+            <dev.jibovico.apps.sharet.ui.HomeItem
                 android:id="@+id/usb_storage_stats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone"/>
 
-            <dev.dworks.apps.anexplorer.ui.HomeItem
+            <dev.jibovico.apps.sharet.ui.HomeItem
                 android:id="@+id/memory_stats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
 
             </FrameLayout>
 
-            <dev.dworks.apps.anexplorer.ui.RecyclerViewPlus
+            <dev.jibovico.apps.sharet.ui.RecyclerViewPlus
                 android:id="@+id/recents_recycler"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

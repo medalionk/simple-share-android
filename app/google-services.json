@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:522760010490:android:c8ec2ec0f24a77bd",
         "android_client_info": {
-          "package_name": "dev.dworks.apps.anexplorer"
+          "package_name": "dev.jibovico.apps.sharet"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "522760010490-3jclq36tgdko0ag8s08kl1pnaglq570q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "dev.dworks.apps.anexplorer",
+            "package_name": "dev.jibovico.apps.sharet",
             "certificate_hash": "3E52782763E9E699CC1871EA32EC551A533DE411"
           }
         },
