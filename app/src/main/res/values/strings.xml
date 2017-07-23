@@ -85,9 +85,9 @@
     <string name="root_available_bytes"><xliff:g id="size" example="3GB">%1$s</xliff:g> free</string>
 
     <!-- Header title for list of storage roots that contains cloud services [CHAR LIMIT=24] -->
-    <string name="root_type_service">Storage services</string>
+    <string name="root_type_service">Storage</string>
     <!-- Header title for list of storage roots that contains shortcuts to documents that may be available elsewhere [CHAR LIMIT=24] -->
-    <string name="root_type_shortcut">Shortcuts</string>
+    <string name="root_type_shortcut">Category</string>
     <!-- Header title for list of storage roots that contains physical devices [CHAR LIMIT=24] -->
     <string name="root_type_device">Devices</string>
     <!-- Header title for list of additional apps that can provide documents [CHAR LIMIT=24] -->
