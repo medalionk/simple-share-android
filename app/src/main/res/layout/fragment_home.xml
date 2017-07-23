@@ -16,6 +16,34 @@
         android:paddingTop="5dp">
 
         <LinearLayout
+            android:id="@+id/shortcuts_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="start|center_vertical"
+                android:minHeight="36dp"
+                android:paddingStart="10dp"
+                android:text="@string/root_type_shortcut"
+                android:textAlignment="viewStart"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <dev.dworks.apps.anexplorer.ui.RecyclerViewPlus
+                android:id="@+id/shortcuts_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:clipToPadding="false"
+                android:padding="10dp"
+                app:columnWidth="100dp"
+                app:type="grid" />
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/storage_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,36 +81,9 @@
             <dev.dworks.apps.anexplorer.ui.HomeItem
                 android:id="@+id/memory_stats"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/shortcuts_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:visibility="visible">
-
-            <TextView
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:gravity="start|center_vertical"
-                android:minHeight="36dp"
-                android:paddingStart="10dp"
-                android:text="@string/root_type_shortcut"
-                android:textAlignment="viewStart"
-                android:textColor="?android:attr/textColorPrimary" />
+                android:visibility="gone"/>
 
-            <dev.dworks.apps.anexplorer.ui.RecyclerViewPlus
-                android:id="@+id/shortcuts_recycler"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:clipToPadding="false"
-                android:padding="10dp"
-                app:columnWidth="100dp"
-                app:type="grid" />
         </LinearLayout>
 
         <LinearLayout

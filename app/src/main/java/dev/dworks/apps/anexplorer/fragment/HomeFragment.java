@@ -142,7 +142,7 @@ public class HomeFragment extends Fragment {
         updateUI();
         showStorage();
         showOtherStorage();
-        showMemory(0);
+        //showMemory(0);
         showShortcuts();
         getLoaderManager().restartLoader(mLoaderId, null, mCallbacks);
     }
