@@ -6,14 +6,14 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
-            def newApkName = "${parent.name}-${output.baseName}-${variant.versionName}.apk"
+            def newApkName = "${output.baseName}-${variant.versionName}.apk"
             output.outputFile = new File(output.outputFile.parent, newApkName)
         }
     }
 
     defaultConfig {
         versionName "0.0.1"
-        versionCode = 58
+        versionCode = 1
         minSdkVersion 17
         targetSdkVersion 25
         vectorDrawables.useSupportLibrary = true
@@ -54,16 +54,7 @@ android {
             applicationId "dev.jibovico.apps.sharet.underground"
             dimension "default"
         }
-        google {
-            dimension "release"
-        }
-        amazon {
-            dimension "release"
-        }
-        other {
-            dimension "release"
-        }
-        other22 {
+        sharet {
             dimension "release"
         }
     }
