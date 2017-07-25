@@ -47,7 +47,7 @@
 
             </ScrollView>
 
-            <dev.jibovico.apps.sharet.ui.MaterialProgressBar
+            <dev.jibovico.apps.sharem.ui.MaterialProgressBar
                 android:id="@+id/progress"
                 style="@style/ListProgress"
                 android:layout_width="@dimen/progress_bar_size"

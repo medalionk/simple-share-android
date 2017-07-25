@@ -74,9 +74,9 @@
 
     <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
     <string name="download_running_percent">In progress, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
-    <string name="name">Sharet</string>
-    <string name="app_name">Sharet</string>
-    <string name="app_ver">Sharet</string>
+    <string name="name">Sharem</string>
+    <string name="app_name">Sharem</string>
+    <string name="app_ver">Sharem</string>
     <string name="app_company">Developed By Jibovico</string>
     <string name="app_url">http://codefanatic.blog/</string>
     <string name="app_about_info">Sharing made easy.</string>

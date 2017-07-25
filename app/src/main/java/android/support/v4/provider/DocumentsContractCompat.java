@@ -27,7 +27,7 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
-import dev.jibovico.apps.sharet.model.DocumentsContract;
+import dev.jibovico.apps.sharem.model.DocumentsContract;
 
 class DocumentsContractCompat {
     private static final String TAG = "DocumentsContractCompat";

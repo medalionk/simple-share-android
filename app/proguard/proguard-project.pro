@@ -59,7 +59,7 @@
 }
 
 # Keep the BuildConfig
--keep class dev.jibovico.apps.sharet.BuildConfig { *; }
+-keep class dev.jibovico.apps.sharem.BuildConfig { *; }
 
 # Keep the support library
 -keep public class android.support.v7.widget.** { *; }

@@ -43,18 +43,18 @@ android {
     flavorDimensions "release", "default"
     productFlavors {
         free {
-            applicationId "dev.jibovico.apps.sharet"
+            applicationId "dev.jibovico.apps.sharem"
             dimension "default"
         }
         pro {
-            applicationId "dev.jibovico.apps.sharet.pro"
+            applicationId "dev.jibovico.apps.sharem.pro"
             dimension "default"
         }
         underground {
-            applicationId "dev.jibovico.apps.sharet.underground"
+            applicationId "dev.jibovico.apps.sharem.underground"
             dimension "default"
         }
-        sharet {
+        sharem {
             dimension "release"
         }
     }

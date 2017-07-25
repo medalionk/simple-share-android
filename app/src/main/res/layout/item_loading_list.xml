@@ -19,7 +19,7 @@
     android:layout_height="wrap_content"
     android:minHeight="@dimen/list_item_height">
 
-    <dev.jibovico.apps.sharet.ui.MaterialProgressBar
+    <dev.jibovico.apps.sharem.ui.MaterialProgressBar
         android:id="@+id/progressBar"
         style="@style/ListProgress"
         android:layout_width="@dimen/progress_bar_small_size"

@@ -6,8 +6,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 
-import dev.jibovico.apps.sharet.model.DocumentsContract;
-import dev.jibovico.apps.sharet.provider.UsbStorageProvider;
+import dev.jibovico.apps.sharem.model.DocumentsContract;
+import dev.jibovico.apps.sharem.provider.UsbStorageProvider;
 
 
 /**

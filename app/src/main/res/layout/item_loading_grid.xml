@@ -19,7 +19,7 @@
     android:layout_height="@dimen/grid_height"
     android:orientation="horizontal">
 
-    <dev.jibovico.apps.sharet.ui.MaterialProgressBar
+    <dev.jibovico.apps.sharem.ui.MaterialProgressBar
         android:id="@+id/progressBar"
         style="@style/ListProgress"
         android:layout_width="@dimen/progress_bar_small_size"
